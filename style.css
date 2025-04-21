@@ -1,7 +1,7 @@
 body {
     background-color: #0d0d0d;
     color: #ffffff;
-    font-size: 1.2rem;
+    font-size: 1em;
   }
 
 .nav-bar{
@@ -56,6 +56,8 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    max-width: 500px;
+    margin:0 auto ;
 }
 
 .text{
@@ -70,11 +72,11 @@ body {
 
 .bottom{
     display:flex;
+    position: relative;
 }
 
 .my{
     display:flex;
-    position: absolute;
     top: 70%;
     left: 25%;
     font-size: 20px;
@@ -82,7 +84,6 @@ body {
 
 .work{
     display:flex;
-    position: absolute;
     top: 75%;
     left: 26.5%;
     font-size: 20px;
@@ -92,10 +93,8 @@ body {
     display:flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    top: 74%;
-    left: 40%;
-    
+    max-width:500px;
+    margin: 0 auto;
 }
 
 
