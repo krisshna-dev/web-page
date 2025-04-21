@@ -1,7 +1,7 @@
 body {
     background-color: #0d0d0d;
     color: #ffffff;
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 
 .nav-bar{
@@ -45,11 +45,10 @@ body {
 
 .logo{
     display: flex;
-    justify-content: center;
-    width: 96px;      
-    height: 96px;
-    border-radius: 50%;
-    object-fit: cover;
+    justify-content: center; 
+    padding-top: 5%;
+    height: 100px;
+    width: 1850px;
 }
 
 .mid{
@@ -61,6 +60,42 @@ body {
 
 .text{
     text-align: center;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.bottom{
+    display:flex;
+}
+
+.my{
+    display:flex;
+    position: absolute;
+    top: 70%;
+    left: 25%;
+    font-size: 20px;
+}
+
+.work{
+    display:flex;
+    position: absolute;
+    top: 75%;
+    left: 26.5%;
+    font-size: 20px;
+}
+
+.side{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 74%;
+    left: 40%;
+    
 }
 
 
