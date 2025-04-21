@@ -56,7 +56,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    max-width: 500px;
+    max-width: 480px;
     margin:0 auto ;
 }
 
@@ -65,36 +65,38 @@ body {
 }
 
 .bottom{
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-}
-
-.bottom{
     display:flex;
     position: relative;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 4rem;
+}
+
+.para{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 
 .my{
-    display:flex;
-    top: 70%;
-    left: 25%;
-    font-size: 20px;
+    h1 {
+        margin: 0;
+    }
 }
+    
 
 .work{
-    display:flex;
-    top: 75%;
-    left: 26.5%;
-    font-size: 20px;
+    padding-left: 25px;
+    h1 {
+        margin: 0;
+    }
 }
 
 .side{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    max-width:500px;
-    margin: 0 auto;
+
 }
+
 
 
